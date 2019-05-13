@@ -1,0 +1,15 @@
+{
+  "name": "animations",
+  "version": "1.0.0",
+  "description": "css animations",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "sass --watch scss/style.scss:css/style.css"
+  },
+  "author": "grobiwebdesign",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "wowjs": "^1.1.3"
+  }
+}

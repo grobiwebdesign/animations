@@ -1,0 +1,11 @@
+// Fallback plan should main scss files fail
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background: $white;
+}

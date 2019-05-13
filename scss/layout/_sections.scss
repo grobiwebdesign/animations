@@ -1,0 +1,21 @@
+//sections are child elements of site body
+
+section{
+	min-height: 30vh;
+	position: relative;
+	@include add-background($white);
+}
+
+body section:nth-child(odd){
+	@include add-background($grey);
+}
+
+.container{
+	padding: 160px 140px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 736px){
+	.container{
+		padding: 72px 32px;
+	}
+}

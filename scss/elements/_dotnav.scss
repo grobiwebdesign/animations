@@ -1,0 +1,39 @@
+.dotnav{
+	list-style-type: none;
+	position: fixed;
+	display: block;
+    right: 8%;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: black;
+    padding: 8px;
+}
+
+.dotnav li a{
+	text-decoration: none;
+	z-index: 100;
+
+}
+
+.navdot:hover{
+	background-color: white;
+	width: 6px;
+	height: 6px;
+	border: 1px solid black;
+}
+
+.navdot{
+	display: block;
+	width: 8px;
+	height: 8px;
+	background-color: red;
+	margin: 16px 0;
+	border-radius: 50px;
+
+}
